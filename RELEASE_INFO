@@ -1,3 +1,4 @@
+- Updates code to support Django 2
 - Put cola in fridge for cooling (see last step)
 - Create a release branch (locally)
 - Bump the version in fancy_cronfield/__init__.py
@@ -9,6 +10,7 @@
 - Check CHANGELOG that all closed PRs are present.
 - Prepare blog post, including "Release" tag
 - update AUTHORS file
+- Write release notes
 - Make a release commit
 - Tag release commit
 - Merge back into develop

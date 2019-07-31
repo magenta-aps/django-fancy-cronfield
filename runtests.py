@@ -20,7 +20,7 @@ def main(*test_args):
         django.setup()
 
     test_runner_class = get_runner(settings)
-    test_runner = test_runner_class()
+    test_runner = test_runner_class(verbosity=3)
     failures = test_runner.run_tests(test_args)
     sys.exit(bool(failures))
 

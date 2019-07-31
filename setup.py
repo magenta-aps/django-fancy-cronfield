@@ -20,16 +20,23 @@ CLASSIFIERS = [
     'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3.3',
     'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
     'Framework :: Django',
     'Framework :: Django :: 1.5',
     'Framework :: Django :: 1.6',
     'Framework :: Django :: 1.7',
     'Framework :: Django :: 1.8',
     'Framework :: Django :: 1.9',
+    'Framework :: Django :: 1.10',
+    'Framework :: Django :: 1.11',
+    'Framework :: Django :: 2.0',
+    'Framework :: Django :: 2.1',
 ]
 
 INSTALL_REQUIREMENTS = [
-    'django>=1.5,<2.0',
+    'django>=1.5,<=2.2',
     'python-crontab==1.9.3',
 ]
 
@@ -41,7 +48,7 @@ setup(
     author="Saeed Salehian",
     author_email="saeed.sq@gmail.com",
     version=fancy_cronfield.__version__,
-    description="A nice and customizable cronfield",
+    description="A nice and customizable cron field with easy to use UI",
     long_description=long_description,
     url='https://github.com/saeedsq/django-fancy-cronfield',
     license='BSD License',
