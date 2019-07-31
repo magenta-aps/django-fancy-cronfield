@@ -1,3 +1,4 @@
+Please do not use this fork as it is not even on life suppoort and should be considered dead.
 #######################
 Django Fancy Cron Field
 #######################
